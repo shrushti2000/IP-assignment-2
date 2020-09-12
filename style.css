@@ -1,0 +1,40 @@
+body{
+    background-image: url("img.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+
+caption{
+    background-color: red;
+    font-size: 30px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    margin: auto auto;
+}
+
+th,td{
+    padding:15px ;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+tr:nth-child(even){
+    background-color: blue;
+}
+p{
+    
+}
+
+p:nth-child(odd){
+    background-color: green;
+}
+p:nth-child(even){
+    background-color: yellow;
+}
+
+
